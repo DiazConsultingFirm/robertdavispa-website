@@ -1,0 +1,64 @@
+{
+  "project": {
+    "name": "Robert Davis P.A.",
+    "domain": "robertdavispa.com",
+    "type": "Estate Planning & Elder Law",
+    "location": "Fort Lauderdale, FL",
+    "contractTotal": 5500,
+    "depositReceived": 3000,
+    "balanceDue": 2500,
+    "targetLaunch": "August 2026 (Phase 2)",
+    "status": "live",
+    "statusLabel": "Phase 1 Live · Phase 2 Pending",
+    "health": "green",
+    "healthLabel": "Phase 1 complete",
+    "version": "Phase 1",
+    "lastUpdated": "2026-07-10",
+    "previewUrl": "https://robertdavispa.com",
+    "dashboardUrl": "https://diazconsultingfirm.github.io/robertdavispa-website/dashboard/",
+    "pagesBuilt": 10,
+    "pagesLive": 10
+  },
+  "activityLog": [
+    { "date": "2026-07-10", "action": "dashboard_deployed", "label": "Client dashboard deployed", "detail": "Live 3D dashboard for Robert Davis P.A. — React + Three.js glassmorphism, shareable with client.", "icon": "dashboard" },
+    { "date": "2026-07-05", "action": "build", "label": "10 practice areas page confirmed", "detail": "Ted verified 10 statute-cited practice areas live on site (supersedes earlier 7 count). All pages functioning.", "icon": "build", "proofUrl": "https://robertdavispa.com" },
+    { "date": "2026-06-30", "action": "launch", "label": "Phase 1 — Site live on Netlify", "detail": "Full site deployed: 10 practice areas, contact form, Zapier automation active. Stack: Next.js + Tailwind CSS on Netlify.", "icon": "launch", "proofUrl": "https://robertdavispa.com" },
+    { "date": "2026-06-25", "action": "payment", "label": "Initial payment received", "detail": "$3,000 paid. Phase 2 budget $2,500 approved.", "icon": "payment" },
+    { "date": "2026-06-20", "action": "contract", "label": "Contract signed", "detail": "$5,500 total: Phase 1 ($3,000) + Phase 2 ($2,500). Monthly support $1,200/month pending setup.", "icon": "contract" }
+  ],
+  "clientActions": [
+    { "task": "Approve Phase 2 scope", "instruction": "Review and approve Phase 2 deliverables: Legal Pages (Privacy Policy, Terms of Service, Disclaimer), Resource Center (blog/guides section), and GBP Mastery (Google Business Profile optimization).", "who": "Robert Davis", "status": "waiting", "blockedDays": 4, "priority": "high" },
+    { "task": "Provide Google account access", "instruction": "DCF needs access to set up Google Analytics 4 and Google Business Profile. Share credentials or add assistant@gerlachlegal.com as a manager.", "who": "Robert Davis", "status": "waiting", "blockedDays": 14, "priority": "medium" }
+  ],
+  "milestones": [
+    { "id": "contract", "label": "Contract Signed", "date": "2026-06-20", "done": true, "proofUrl": null, "proofLabel": null },
+    { "id": "payment1", "label": "Initial Payment ($3,000)", "date": "2026-06-25", "done": true, "proofUrl": null, "proofLabel": null },
+    { "id": "phase1", "label": "Phase 1 — Site Live", "date": "2026-06-30", "done": true, "proofUrl": "https://robertdavispa.com", "proofLabel": "Live site" },
+    { "id": "zapier", "label": "Zapier Automation", "date": "2026-06-30", "done": true, "proofUrl": null, "proofLabel": null },
+    { "id": "ga4", "label": "Google Analytics 4", "date": null, "done": false, "owner": "dcf", "blockedDays": 14, "proofUrl": null, "proofLabel": null },
+    { "id": "resend", "label": "Resend Email Setup", "date": null, "done": false, "owner": "dcf", "proofUrl": null, "proofLabel": null },
+    { "id": "legalPages", "label": "Phase 2 — Legal Pages", "date": null, "done": false, "owner": "dcf", "proofUrl": null, "proofLabel": null },
+    { "id": "resourceCenter", "label": "Phase 2 — Resource Center", "date": null, "done": false, "owner": "dcf", "proofUrl": null, "proofLabel": null },
+    { "id": "blog", "label": "Phase 2 — Blog / Guides", "date": null, "done": false, "owner": "dcf", "proofUrl": null, "proofLabel": null },
+    { "id": "gbp", "label": "Phase 2 — GBP Mastery", "date": null, "done": false, "owner": "dcf", "proofUrl": null, "proofLabel": null },
+    { "id": "phase2Launch", "label": "Phase 2 Launch", "date": null, "done": false, "proofUrl": null, "proofLabel": null },
+    { "id": "support", "label": "Monthly Support ($1,200)", "date": null, "done": false, "owner": "dcf", "proofUrl": null, "proofLabel": null }
+  ],
+  "blockers": [
+    { "what": "Phase 2 scope approval", "who": "Robert Davis", "contact": "(954) 444-4924", "impact": "Legal Pages, Resource Center, blog, and GBP Mastery cannot begin without signed-off scope", "since": "2026-07-06", "daysAging": 4, "priority": "high" },
+    { "what": "Google account access for GA4 + GBP", "who": "Robert Davis", "contact": "(954) 444-4924", "impact": "Analytics and Business Profile setup blocked", "since": "2026-06-26", "daysAging": 14, "priority": "medium" }
+  ],
+  "dcfCanDoNow": [
+    { "task": "Resend email confirmations", "detail": "Set up Resend.com account → configure domain robertdavispa.com → wire contact form to send confirmation emails. No client input needed.", "status": "ready" }
+  ],
+  "postDnsQueue": [],
+  "contacts": [
+    { "name": "Robert Davis, Esq.", "role": "Principal Attorney", "phone": "(954) 444-4924", "notes": "Estate planning and elder law. Site is live on Netlify with Zapier automation. 10 statute-cited practice areas. Next check-in scheduled 2026-07-09." }
+  ],
+  "financials": {
+    "contractTotal": 5500,
+    "depositReceived": 3000,
+    "balanceDue": 2500,
+    "paymentTrigger": "Phase 2 launch (August 2026)"
+  }
+}
